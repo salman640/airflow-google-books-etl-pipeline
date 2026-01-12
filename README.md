@@ -19,13 +19,16 @@ What the Pipeline Does
 
 The DAG runs three logical steps:
 
-1. Extract
+1. Extract:
+   
    Fetches book data from the Google Books API.
 
-2. Transform
+2. Transform:
+   
    Cleans and structures the raw API response into tabular format.
 
-3. Load
+3. Load:
+   
    Stores the transformed data into a PostgreSQL table named `books`.
 
    
